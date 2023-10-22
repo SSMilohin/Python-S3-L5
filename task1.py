@@ -1,8 +1,8 @@
-mySet = list(map(int, input("Введите список чисел (например - 1, 2, 3, 2, 1, 1): ").split(", ")))
-myObject = set()
+myList = list(map(int, input("Введите список чисел (например - 1, 2, 3, 2, 1, 1): ").split(", ")))
+mySet = set()
 
-for i in range(len(mySet)):
-    myObject.add(mySet[i])
+for i in range(len(myList)):
+    mySet.add(myList[i])
 
-print(myObject)
-print(len(myObject))
+print(mySet)
+print(len(mySet))
